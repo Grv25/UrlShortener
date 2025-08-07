@@ -30,6 +30,7 @@
 1. Клонирование репозитория:
 
 ```git clone https://github.com/Grv25/UrlShortener```
+
 ```cd UrlShortener```
 
 2. Настроить строку подключения в appsettings.json (по умолчанию используется SQLite файл urls.db):
@@ -43,6 +44,7 @@
 3. Запустить миграции и приложение:
 
 ```dotnet ef database update```
+
 ```dotnet run```
 
 4. Открыть Swagger UI для тестирования API по адресу:
