@@ -8,7 +8,6 @@
 
 Приложение предоставляет REST API для создания коротких ссылок и перенаправления по ним.  
 Основные возможности:
-
 ▪ Создание короткой ссылки из длинной URL  
 ▪ Перенаправление с короткой ссылки на оригинальный URL  
 ▪ Валидация URL  
@@ -35,9 +34,11 @@
 
 2. Настроить строку подключения в appsettings.json (по умолчанию используется SQLite файл urls.db):
 
-```"ConnectionStrings": {
+```json
+"ConnectionStrings": {
  "DefaultConnection": "Data Source=urls.db"
-}```
+}
+```
    
 3. Запустить миграции и приложение:
 
@@ -54,13 +55,17 @@
 
 • POST /api/urlapi — Создание короткой ссылки
    Request body:
-   ```{
+   ```json
+   {
       "longUrl": "https://example.com/very/long/url"
-   }```
+   }
+```
    Response:
-   ```{
+   ```json
+   {
       "shortUrl": "https://localhost/abc12345"
-   }```
+   }
+```
    
 • GET /{shortCode} — Перенаправление на оригинальный URL
    
