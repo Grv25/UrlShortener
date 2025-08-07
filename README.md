@@ -57,7 +57,7 @@
 
 ## API
 
-• POST /api/urlapi — Создание короткой ссылки
+• POST /api/urlapi — Создание короткой ссылки  
    Request body:
    ```json
    {
