@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "UrlShortener.Controllers.UrlController",
+    "ContainingType": "UrlShortener.Controllers.RedirectController",
     "Method": "RedirectToLongUrl",
     "RelativePath": "{shortCode}",
     "HttpMethod": "GET",
@@ -13,22 +13,52 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 302
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
   },
   {
-    "ContainingType": "UrlShortener.Controllers.UrlController",
+    "ContainingType": "UrlShortener.Controllers.UrlApiController",
     "Method": "CreateShortUrl",
-    "RelativePath": "api/Url",
+    "RelativePath": "api/UrlApi",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "longUrl",
-        "Type": "System.String",
+        "Name": "request",
+        "Type": "UrlShortener.Models.DTO.CreateShortUrlRequest",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
   }
 ]

@@ -32,6 +32,9 @@ namespace UrlShortener.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("LongUrl")
+                        .IsUnique();
+
                     b.ToTable("ShortUrls");
                 });
 #pragma warning restore 612, 618

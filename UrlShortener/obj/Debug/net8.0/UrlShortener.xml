@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UrlShortener</name>
+    </assembly>
+    <members>
+        <member name="M:UrlShortener.Controllers.RedirectController.RedirectToLongUrl(System.String)">
+            <summary>
+            Перенаправляет по короткой ссылке
+            </summary>
+            <param name="shortCode">Код короткой ссылки</param>
+            <returns>HTTP-редирект на длинный URL или 404</returns>
+            <response code="302">Редирект на длинный URL</response>
+            <response code="404">Ссылка не найдена</response>
+        </member>
+        <member name="M:UrlShortener.Controllers.UrlApiController.CreateShortUrl(UrlShortener.Models.DTO.CreateShortUrlRequest)">
+            <summary>
+            Создаёт короткую ссылку по длинному URL
+            </summary>
+            <param name="request">Модель с длинным URL</param>
+            <returns>Сгенерированная короткая ссылка</returns>
+            <response code="200">Короткая ссылка успешно создана</response>
+            <response code="400">Невалидный формат URL</response>
+        </member>
+        <member name="T:UrlShortener.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:UrlShortener.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:UrlShortener.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:UrlShortener.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:UrlShortener.Models.DTO.CreateShortUrlRequest.LongUrl">
+            <summary>
+            Исходный длинный URL, который нужно сократить
+            </summary>
+        </member>
+    </members>
+</doc>

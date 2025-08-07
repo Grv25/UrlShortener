@@ -65,12 +65,6 @@ C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\scopedcss
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets\msbuild.UrlShortener.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets\msbuild.UrlShortener.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets\msbuild.build.UrlShortener.props
-C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.UrlShortener.props
-C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.UrlShortener.props
-C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShort.46B0166A.Up2Date
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShortener.dll
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\refint\UrlShortener.dll
@@ -159,4 +153,12 @@ C:\Users\timur\source\repos\UrlShortener\UrlShortener\bin\Debug\net8.0\ru\Micros
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShortener.sourcelink.json
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\bin\Debug\net8.0\UrlShortener.xml
 C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\timur\source\repos\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShortener.xml
