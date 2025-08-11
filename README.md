@@ -33,7 +33,7 @@
 
 ```git clone https://github.com/Grv25/UrlShortener```
 
-```cd UrlShortener```
+```cd UrlShortener/UrlShortener```
 
 2. Настроить строку подключения в appsettings.json (по умолчанию используется SQLite файл urls.db):
 
