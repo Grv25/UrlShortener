@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\timur\\source\\repos\\UrlShortener\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF0987-F6D6-4510-9BE3-AF8ADDCAC7FC}|UrlShortener\\UrlShortener.csproj|c:\\users\\timur\\source\\repos\\urlshortener\\urlshortener\\urlshortener.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7FDF0987-F6D6-4510-9BE3-AF8ADDCAC7FC}|UrlShortener\\UrlShortener.csproj|solutionrelative:urlshortener\\urlshortener.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UrlShortener",
+              "DocumentMoniker": "C:\\Users\\timur\\source\\repos\\UrlShortener\\UrlShortener\\UrlShortener.csproj",
+              "RelativeDocumentMoniker": "UrlShortener\\UrlShortener.csproj",
+              "ToolTip": "C:\\Users\\timur\\source\\repos\\UrlShortener\\UrlShortener\\UrlShortener.csproj",
+              "RelativeToolTip": "UrlShortener\\UrlShortener.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T13:30:31.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
